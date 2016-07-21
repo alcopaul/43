@@ -19,7 +19,7 @@ int main()
 	{
 		hh += (int) fff[u];
 	}
-	srand(((4*3+13)^46)*hh);
+	srand(43*hh);
 	int buff;
 	int total = 0;
 	for (int i = 0; i < 4; ++i)
