@@ -14,7 +14,7 @@ int main()
 	int hh = 0;
 	printf("%s", h);
 	gets_s(fff, sizeof(fff));
-	int k = (int) strlen(fff);
+	int k = (int)strlen(fff);
 	for (int u = 0; u < k; ++u)
 	{
 		hh += (int)fff[u];
