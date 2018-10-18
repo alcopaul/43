@@ -28,7 +28,6 @@ int main()
 		{
 			buff = matrix[i][y] - matrix[rand() % 4][rand() % 4];
 			total += buff;
-
 		}
 	}
 	printf("%d", total);
